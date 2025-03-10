@@ -58,7 +58,7 @@ export default function Board(): React.ReactElement {
   }, [])
 
   return (
-    <div className="relative h-screen w-screen overflow-y-hidden bg-zinc-800">
+    <div className="relative h-screen w-screen overflow-y-hidden bg-slate-900">
       <div className="flex h-full w-full flex-col items-center justify-center gap-6">
         <p className="text-lg text-white lg:text-3xl">
           {isPlayerXTurn ? 'X' : 'O'}
